@@ -4,8 +4,8 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", serif;
-    --primary-color: #3a2620;       /* Dark Brown */
-    --secondary-color: #aa9581;     /* Light Brown*/
+    --primary-colour: #3a2620;       /* Dark Brown */
+    --secondary-colour: #aa9581;     /* Light Brown*/
     --highlight-colour: #416a8e;    /* Light Blue */
     --light-highlight-colour: #7a9fc2;  /* Dark Blue */ 
 }
@@ -17,8 +17,15 @@ body {
 
 h1, h2, h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
+    color: var(--primary-colour);
+}
+
+h1, h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-colour {
@@ -32,7 +39,7 @@ h1, h2, h3 {
 
 /* Navbar */
 #navbar {
-    background-color: var(--primary-color);
+    background-color: var(--primary-colour);
 }
 
 #navbar .logo {
@@ -44,6 +51,18 @@ h1, h2, h3 {
 #header .lead {
     font-family: var(--secondary-font);
 }
+
+/* Services */
+#services .card-footer {
+    font-weight: bold;
+    color: var(--light-highlight-colour);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
 
 /* Temporary CSS to test layout
 .container, .row {
