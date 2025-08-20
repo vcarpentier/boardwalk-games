@@ -24,7 +24,16 @@ h1, h2, h3 {
     color:var(--highlight-colour);
 }
 
-/* Temporary CSS to test layout*/
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* Temporary CSS to test layout
 .container, .row {
     border: 2px, solid, black;
 }
@@ -32,4 +41,4 @@ h1, h2, h3 {
 .col-12 {
     border: 2px, solid, white;
     background-color: lightgray;
-}
+}*/
