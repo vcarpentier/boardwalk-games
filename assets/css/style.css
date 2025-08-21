@@ -63,6 +63,11 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Library ¦ New games */
+#new-games .card {
+    border: 0px;
+}
+
 
 /* Temporary CSS to test layout
 .container, .row {
