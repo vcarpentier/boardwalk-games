@@ -37,6 +37,33 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* Buttons*/
+.custom-button-filled {
+    border: 2px solid var(--highlight-colour);
+    background-color: var(--highlight-colour);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-colour);
+    background-color: var(--secondary-colour);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 1px  solid var(--highlight-colour);
+    background-color: transparent;
+    padding: 7px 25px;
+    color: var(--highlight-colour);
+}
+
+.custom-button-outline:hover {
+    border: 1px  solid var(--highlight-colour);
+    background-color: var(--highlight-colour);
+    padding: 7px 25px;
+    color: white;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-colour);
