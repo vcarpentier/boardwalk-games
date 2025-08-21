@@ -90,6 +90,16 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+#student-discount {
+    background-color: var(--highlight-colour);
+    color: white;
+    text-align: center;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Library  */
 #new-games .card,
 #favourites .card {
