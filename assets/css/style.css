@@ -99,6 +99,10 @@ h2 {
 #contact .social-links i:hover {
     color: var(--secondary-colour);
 }
+
+#contact .table-dark  * {
+    background-color: transparent;
+}
  
 /* Temporary CSS to test layout
 .container, .row {
